@@ -12,12 +12,16 @@ export class Comic extends Component {
     }
 
     componentDidMount() {
-            getComic().then(data => this.props.dispatch({ type: "GET_COMIC", comic: data[0] }))
-            .then(this.setState({showButts: true}))
+            this.getAComic()
+    }
+
+    getAComic(){
+        getComic().then(data => this.props.dispatch({ type: "GET_COMIC", comic: data[0] }))
+            .then(this.setState({ showButts: true })) 
     }
 
     newComic = () => {
-        this.componentDidMount()
+        this.getAComic()
     }
 
     playGame = (e) => {
@@ -29,7 +33,7 @@ export class Comic extends Component {
     render() {
         return (
             <div>
-                {this.props.comic.caption === "" ? this.componentDidMount() : <img src={this.props.comic.src} alt='comic' />}
+                {this.props.comic.caption === "" ? this.getAComic : <img src={this.props.comic.src} alt='comic' />}
                 {this.state.showButts ? <PlayButtons newComic={this.newComic} playGame={this.playGame}/> : <InputContainer />}
             </div>
         )

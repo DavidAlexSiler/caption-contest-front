@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import { Input, Button } from 'semantic-ui-react'
 import { connect } from 'react-redux'
+import GalleryContainer from './GalleryContainer'
+import { Route } from 'react-router-dom'
 
 
 export class InputContainer extends Component {
@@ -56,6 +58,7 @@ export class InputContainer extends Component {
                     caption: this.state.input1
                 }
             })
+            window.alert('Head to the Gallery!')
         }else if(this.state.vote1 < this.state.vote2){
             this.setState({
                 ...this.state,
@@ -64,6 +67,7 @@ export class InputContainer extends Component {
                     caption: this.state.input2
                 }
             })
+            window.alert('Head to the Gallery!')
         }else{
             window.alert("It's a Tie! You need a Tie-Breaker vote!")
         }
@@ -71,7 +75,7 @@ export class InputContainer extends Component {
 
     render() {
         return (
-            <div>
+            <div className='center'>
                 <Input fluid onChange={(e) => this.handleInput(e)} 
                     name='input1'
                     action={{

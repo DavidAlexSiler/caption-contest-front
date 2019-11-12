@@ -15,9 +15,9 @@ function App() {
       <h1>The <s>Official</s> New Yorker Caption Contest.</h1>
       <NavBar />
       <Switch>
-      <Route exact path='/about' component={AboutContainer}/>
       <Route exact path='/play' component={PlayContainer}/>
       <Route exact path='/gallery' component={GalleryContainer}/>
+      <Route exact path='' component={AboutContainer}/>
       </Switch>
     </div>
   );

@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 class NavBar extends Component {
 
     state = { 
-        activeItem: 'play'
+        activeItem: 'about'
     }
 
     
@@ -17,7 +17,7 @@ class NavBar extends Component {
         const { activeItem } = this.state
 
         return (
-            <Menu tabular>
+            <Menu tabular className='nav'>
                 <Menu.Item as={ Link }
                     to='/about'
                     name='about'

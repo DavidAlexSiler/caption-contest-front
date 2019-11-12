@@ -1,9 +1,10 @@
 import React from 'react'
+import GalleryMapper from '../components/GalleryMapper'
 
 export default function GalleryContainer() {
     return (
         <div>
-            <h1>gallery</h1>
+            <GalleryMapper />
         </div>
     )
 }
