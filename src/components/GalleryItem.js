@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Header, Image, Modal } from 'semantic-ui-react'
+import {Image, Modal } from 'semantic-ui-react'
 
 export class GalleryItem extends Component {
 
