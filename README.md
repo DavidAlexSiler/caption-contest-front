@@ -7,7 +7,8 @@ An engaging game-style app where users create and vote on unique cartoon caption
 - Development of a project from beginning to end. Goals were met through debugging and troubleshooting for various solutions, which lead to successful completion.
  
 ## Screenshots
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![Image of Yaktocat](https://github.com/Nerajno/Caption-Contest-frontEnd/blob/master/public/ScreenShot.png)
+
 
 ## Tech/framework used
 <b>Built with :</b>
