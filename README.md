@@ -32,7 +32,7 @@ Check the Gallery tab for the Winners.
 - [x] Complete better ReadMe.
 - [x] Rebuild it with from the ground up
 - [x] Add to final Portfolio.
-- [ ] Host on Netlify[Front-End].
+- [x] Host on Netlify[Front-End].
 - [ ] Build a backend which asks for a sign/sign up section[Back-End/Heroku]
 
 
