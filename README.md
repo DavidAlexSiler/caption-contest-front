@@ -1,68 +1,44 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## The ~~Official~~ New Yorker Caption Contest!
+New York Cartoon Caption
 
-## Available Scripts
+## Motivation
+An engaging game-style app where users create and vote on unique cartoon captions.
+- Created to adher to the requirements of the third module of Flatiron's School Software Engineering Immersive program.
+- Development of a project from beginning to end. Goals were met through debugging and troubleshooting for various solutions, which lead to successful completion.
+ 
+## Screenshots
+![Image of Yaktocat](https://github.com/Nerajno/Caption-Contest-frontEnd/blob/master/public/ScreenShot.png)
 
-In the project directory, you can run:
 
-### `yarn start`
+## Tech/framework used
+<b>Built with :</b>
+- React and Semantic-React-UI
+- Allowed additional styling to the frontend CSS.
+- Connected using a third-party API 
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Features
+What makes your project stand out?
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## How to use?
+ ### Rules for play.</h1>
+Click the 'Play' tab and look for a comic you like!, if one doesn't show up, click to choose another!
+When you find one you like, click 'Play Caption Contest'.
+You and your friends come up with 2 different funny captions, then put them  to a vote!
+Check the Gallery tab for the Winners.
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Bugs
+- [x] Connect all the media.
+- [x] Complete better ReadMe.
+- [x] Rebuild it with from the ground up
+- [x] Add to final Portfolio.
+- [x] Host on Netlify[Front-End].
+- [ ] Build a backend which asks for a sign/sign up section[Back-End/Heroku]
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## License
+This project used the GPLv3 license. 
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Credits
+- Created originally with Alex Siler and Christopher Swafford.
+- Refactor in React by Alex Siler.
